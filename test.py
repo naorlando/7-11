@@ -11,7 +11,6 @@ def print_some_time():
 
 print_some_time()
 
-<<<<<<< HEAD
 
 def sum(a,b):
     print (a+b)
@@ -40,7 +39,6 @@ def division_with_delay(a, b, delay=0):
 
 print_name_with_delay("Martin", 5)
 division_with_delay(10, 0, 5)
-=======
 def print_mult(n1, n2):
     print(n1 * n2)
 
@@ -56,4 +54,3 @@ def print_sched():
 
 print_sched()
 
->>>>>>> fabrizio
