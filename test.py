@@ -3,6 +3,7 @@ import time
 
 s = sched.scheduler(time.time, time.sleep)
 
+<<<<<<< HEAD
 
 def sum(a,b):
     print (a+b)
@@ -31,3 +32,20 @@ def division_with_delay(a, b, delay=0):
 
 print_name_with_delay("Martin", 5)
 division_with_delay(10, 0, 5)
+=======
+def print_mult(n1, n2):
+    print(n1 * n2)
+
+def print_fin():
+    print("Fin")
+
+def print_sched():
+    s.enter(2, 1, print_mult, argument=(3,1,))
+    s.enter(4, 2, print_mult, argument=(4,2,))
+    s.enter(7, 3, print_fin)
+    s.run()
+
+
+print_sched()
+
+>>>>>>> fabrizio
